@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="api_default_error">Something Wrong!</string>
+    <string name="lbl_empty_data_characters">There are no characters!</string>
+    <string name="label_title_activity_login">Login</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="login">Enter</string>
+    <string name="lbl_character_number">Character # %1$s</string>
+</resources>
