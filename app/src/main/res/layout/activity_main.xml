@@ -9,7 +9,6 @@
 
     <ImageView
         android:id="@+id/imgLogo"
-        android:contentDescription="@string/app_name"
         android:layout_marginTop="@dimen/dimen_dp_50"
         android:layout_width="@dimen/dimen_dp_50"
         android:layout_height="@dimen/dimen_dp_50"
