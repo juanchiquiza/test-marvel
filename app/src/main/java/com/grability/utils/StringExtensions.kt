@@ -1,5 +1,7 @@
 package com.grability.utils
 
+import android.util.Patterns
+import android.widget.EditText
 import java.lang.StringBuilder
 import java.security.NoSuchAlgorithmException
 
@@ -21,3 +23,7 @@ fun String.md5(): String {
     }
     return ""
 }
+
+fun EditText.isValidEmail():
+        Boolean = this.text.toString().isNotEmpty() &&
+        Patterns.EMAIL_ADDRESS.matcher(this.text.toString()).matches()
